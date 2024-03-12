@@ -73,7 +73,7 @@ const tlHero = gsap.timeline({
         trigger: '.hero',
         start: '50% 50%',
         end: '150% 50%',
-        markers: true,
+        // markers: true,
         scrub: true,
         pin: true
     }
@@ -109,7 +109,7 @@ const tlStrategic = gsap.timeline({
         trigger: '#strategic',
         start: '0% 20%',
         end: '100% 50%',
-        markers: true,
+        // markers: true,
         scrub: true,
     }
 })
@@ -127,7 +127,7 @@ const tlWork = gsap.timeline({
         trigger: '#work-main-container',
         start: '50% 50%',
         end: '400% 50%',
-        markers: true,
+        // markers: true,
         scrub: true,
         pin: true
     }
@@ -158,7 +158,7 @@ const tlOutcomes = gsap.timeline({
         trigger: '#outcomes',
         start: '50% 50%',
         end: '400% 50%',
-        markers: true,
+        // markers: true,
         scrub: true,
         pin: true
     }
